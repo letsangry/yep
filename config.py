@@ -11,7 +11,7 @@ if os.path.exists("local.env"):
 load_dotenv()
 admins = {}
 
-SESSION_NAME = getenv("SESSION_NAME")
+SESSION_NAME = getenv("SESSION_NAME", "BQCk4tLs5TJ8ufIjrBn-3NgcnsOgQGO3EOhrUJCc9QJEDwAjok43JiyWW2jK7nx06gQqw-Xx8eTIm7PKSlZpOmobCIWKh2AukMz668Ubeo8GYPmo2Dk6k5ak-ixpmpRNDR6Gr8Nz6dBiAdbdp8f8rW2sas7mP7x6E6NM5KMr1z1Jy7Ylb59BRY6ivJ1bhfjPj4JSH00jNRc1QfKowdS-32HbwhfAGEqsC6DY0m37PRelN6LqU0yYD4S2rzSd3PfcxsT4PH-GD8U1jmOWf-86ynmmDh5H8-9D0Y801ib4axNts1bz0MnCznWqGQFZX-45Ts2SAwDiiNu1PV7KNLIbS1MpAAAAAUjnYQ0A")
 
 if str(getenv("STRING_SESSION2")).strip() == "":
     SESSION2 = str(None)
